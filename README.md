@@ -1,4 +1,4 @@
-# Crypto_Website_Term1_Year2
+# Crypto Website Term1 Year2
  a crypto currencie website for term one year two where
 
 <img src='Assets\landing page.png'></img>
