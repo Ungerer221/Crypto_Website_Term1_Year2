@@ -5,6 +5,6 @@
  For this website we have to use an api of our choice and make a website using our chosen api. 
 
  ## Code used
- - Reac.js
+ - React.js
  - HTML
  - CSS 
