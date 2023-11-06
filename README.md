@@ -8,13 +8,13 @@
 
  For the project we where tasked to Build a full stack website using ```Node.js``` and ```react```.
 
- - Node.js
- - React
+ - ```Node.js```
+ - ```React```
 
  ## Code used
- - JavaScript
- - HTML
- - CSS 
+ - ```JavaScript```
+ - ```HTML```
+ - ```CSS``` 
 
  # Project Requirments
 
@@ -48,3 +48,13 @@ npm i cart.js react-chartjs-2
 ```
 npm i react-router-dom
 ```
+
+## Resources Used
+React Icons
+https://react-icons.github.io/react-icons/
+```
+npm i react-icons
+```
+
+# Style Sheet
+<img src='Assets\style sheet 2.png'></img>
