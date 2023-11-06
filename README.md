@@ -6,7 +6,7 @@
  # Brief
  For this website we had to use an api of our choice and make a website using our chosen api. The Site had to call and show the information that the api provided. We also had to display selected and specific informations.
 
- For the project we where tasked to Build a full stack website using Node.js and react.
+ For the project we where tasked to Build a full stack website using ```Node.js``` and ```react```.
 
  - Node.js
  - React
@@ -41,6 +41,10 @@ npm i react
 npm i axios
 ```
 ### Chart.js
-```npm i cart.js react-chartjs-2```
+```
+npm i cart.js react-chartjs-2
+```
 ### Router Dom
-```npm i react-router-dom```
+```
+npm i react-router-dom
+```
