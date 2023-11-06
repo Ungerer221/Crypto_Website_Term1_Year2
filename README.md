@@ -162,3 +162,20 @@ The greatest high light was actualy getting the functionality to work. To get th
 - Updated UI
 - Increased Data Display for each currency 
 - Updated Calculating and comparison page
+- Update Website Structure
+- a crypto corrency viewing page which displays all the currencies in card format
+
+# Final Product
+
+## Landing
+<img src='Assets\Capture2.PNG'></img>
+
+## Compare Page
+<img src='Assets\Capture1.PNG'></img>
+<img src='Assets\Capture5.PNG'></img>
+
+## Timeline Page
+<img src='Assets\Capture3.PNG'></img>
+
+## Portfolio Page
+<img src='Assets\Capture4.PNG'></img>
