@@ -209,7 +209,7 @@ function Compare() {
                         <div>
                             <ul style={{ listStyle: 'none' }}>
                                 <li>
-                                    <h3 className='col-sm-3' style={{ width: '600px' }}> {selectedOne ? 'Name: ' + selectedOne.name : null} </h3>
+                                    <h3 className='col-sm-3' style={{ width: '600px' }}> {selectedOne ? '' + selectedOne.name : null} </h3>
                                 </li>
                                 <li>
                                     <p>{selectedOne ? 'Price: $' + selectedOne.current_price.toLocaleString() : null}</p>
@@ -249,7 +249,7 @@ function Compare() {
                         <div>
                             <ul style={{ listStyle: 'none' }}>
                                 <li>
-                                    <h3 className='col-sm-3' style={{ width: '600px' }}> {selectedTwo ? 'Name: ' + selectedTwo.name : null} </h3>
+                                    <h3 className='col-sm-3' style={{ width: '600px' }}> {selectedTwo ? '' + selectedTwo.name : null} </h3>
                                 </li>
                                 <li>
                                     <p>{selectedTwo ? 'Price: $' + selectedTwo.current_price.toLocaleString() : null}</p>
