@@ -78,7 +78,7 @@ https://react.dev/
 <img src='Assets\style sheet 2.png'></img>
 
 # Site Structure
-The website consists of one file "app". The site has a ```components``` folder which store the different components used across the site.
+The website consists of one folder ```app```. The site has a ```components``` folder which store the different components used across the site.
 
 
 # Features & Functionality
@@ -96,4 +96,43 @@ const [data, setData] = useState(null)
             console.log(error)
         })
     }, [])
+```
+
+## Calling the Graph Data
+```
+<div className='row'>
+    {data2 ? <div style={{ width: 1000, margin: 'auto' }}> <Line options={selected} data={data2} /> </div> : null}
+    {/* the problem is it that its showing the same graph  */}
+</div>
+<div>
+    {data2 ? <div style={{ width: 600, margin: 'auto' }}> <Bar options={options} data={data2} /> </div> : null}
+</div>
+<div>
+    {data2 ? <div style={{ width: 600, margin: 'auto' }}> <Radar options={options} data={data2} /> </div> : null}
+</div>
+```
+
+## Time Line useEffect 
+this shows the info when the currency is selected
+```
+useEffect(() => {
+    // so that there is no network requiest error if there is no selected object
+        if(!selected) return;
+        axios.get(`https://api.coingecko.com/api/v3/coins/${selected?.id}/market_chart?vs_currency=usd&days=${range}&${range === 1 ? 'interval=hourly' : `interval=daily`}`)
+          .then((response) => {
+            console.log(response.data);
+            // ------------------------------------- issue here -------------------------- //
+            setData({
+              labels: response.data.prices.map((data) => { return moment.unix(data[0] / 1000).format(range === 1 ? "HH:MM" : "MM-DD") }), //the .prices.map is there because it is a function on an arrey because the prices is actually and object
+              datasets: [
+                {
+                  label: `${selected.name} Pricing Over ` + range  + ( range === 1 ? ' Day' : ' Days'),
+                  data: response.data.prices.map((data) => { return data[1] }),
+                  borderColor: 'rgb(255, 99, 132)',
+                  backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                },
+              ],
+            })
+          });
+      }, [selected, range]);
 ```
