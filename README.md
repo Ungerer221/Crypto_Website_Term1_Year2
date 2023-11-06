@@ -137,12 +137,15 @@ useEffect(() => {
 # Development Process
 
 ## Style Sheet
+
 <img src='Assets\style sheet 2.png'></img>
 
 ## WireFrames
 
 ### Landing page
+
 <img src='Assets\landing page.png'></img>
 
 ### Compare Page
+
 <img src='Assets\comparing page.png'></img>
