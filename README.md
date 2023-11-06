@@ -146,3 +146,13 @@ useEffect(() => {
 
 ### Compare Page
 <img src='Assets\comparing page.png'></img>
+
+# HighLights 
+The greatest high light was actualy getting the functionality to work. To get the Info from the API and to display it was quite enjoyable.
+- Working Functionality
+- Fixing irritating bugs
+- Designing the site 
+
+# Challenges 
+> [!IMPORTANT]
+> There where some ```Bugs``` that was very challenging to fix 
