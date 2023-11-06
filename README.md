@@ -1,4 +1,4 @@
-# Crypto Website Term1 Year2
+# Cryptic Website Term1 Year2
  A crypto currencie website for term one year two where
 
 <img src='Assets\landing page.png'></img>
@@ -29,7 +29,7 @@
 
 # About The Project
 ## Project Description
-Crypto is a website that displays crpto information using the greko crpto api. the site allows the user to compare information between differnet currencies. The user can also calculate the total values of thier total crypto currencies.
+Cryptic is a website that displays crpto information using the greko crpto api. the site allows the user to compare information between differnet currencies. The user can also calculate the total values of thier total crypto currencies.
 
  ### Built With
  - ```JavaScript```
