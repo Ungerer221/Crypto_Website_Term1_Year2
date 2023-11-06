@@ -8,6 +8,9 @@
 
  For the project we where tasked to Build a full stack website using Node.js and react.
 
+ - Node.js
+ - React
+
  ## Code used
  - JavaScript
  - HTML
@@ -37,3 +40,7 @@ npm i react
 ```
 npm i axios
 ```
+### Chart.js
+```npm i cart.js react-chartjs-2```
+### Router Dom
+```npm i react-router-dom```
