@@ -157,6 +157,7 @@ The greatest high light was actualy getting the functionality to work. To get th
 - Updated Calculating and comparison page
 - Update Website Structure
 - a crypto corrency viewing page which displays all the currencies in card format
+- an alert that shows when the site is receiving data from the DB
 
 # Final Product
 
