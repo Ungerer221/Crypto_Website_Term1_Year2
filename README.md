@@ -11,29 +11,38 @@
  - ```Node.js```
  - ```React```
 
- ## Code used
- - ```JavaScript```
- - ```HTML```
- - ```CSS``` 
+# Project Requirments
 
- # Project Requirments
-
- ## Landing Dashboard
+## Landing Dashboard
  - This page must summarize or breakdown the most relevant properties of your data set.
  - Your dashboard must introduce and contextualise your concept and research.
 
- ## Comparison Page
+## Comparison Page
  - Must compare two objectsfrom your data set.
  - the object properties should be represented by 3 different chart.js elements, bar, pie, radar, and poalr area.
  - The user must be able to update/select different objects to compare within the data set.
 
- ## Timeline Page
+## Timeline Page
  - the time line page should contain a signle line graph, mapping all the entries of at least 5 different object properties.
  - The timeline should only show one property set at a time, across the entire dataset entry time line.
  - must be able to change the property displayed via an input.
 
-# npm installs
+# About The Project
+## Project Description
+Crypto is a website that displays crpto information using the greko crpto api. the site allows the user to compare information between differnet currencies. The user can also calculate the total values of thier total crypto currencies.
 
+ ### Built With
+ - ```JavaScript```
+ - ```HTML```
+ - ```CSS``` 
+
+## Technologies used
+ - Axios
+ - React Icons
+ - React Charts
+ - Bootstrap
+
+## NPM installs
 ### React
 ```
 npm i react
@@ -67,3 +76,19 @@ https://react.dev/
 
 # Style Sheet
 <img src='Assets\style sheet 2.png'></img>
+
+# Features & Functionality
+## Api Call
+```
+const [data, setData] = useState(null)
+
+    const url = 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=6&page=1&sparkline=false'
+
+    useEffect(() => {
+        axios.get(url).then((response) => {
+            setData(response.data)
+        }).catch((error) => {
+            console.log(error)
+        })
+    }, [])
+```
