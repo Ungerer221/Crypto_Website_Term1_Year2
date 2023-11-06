@@ -66,13 +66,6 @@ https://react-icons.github.io/react-icons/
 ```
 npm i react-icons
 ```
-## Useful Sources 
-
-### JavaScript
-https://javascript.info/
-
-### React
-https://react.dev/
 
 # Site Structure
 The website consists of one folder ```app```. The site has a ```components``` folder which store the different components used across the site.
@@ -182,3 +175,11 @@ The greatest high light was actualy getting the functionality to work. To get th
 
 # Author
 - Ungerer Hattingh 221032
+
+# Useful Sources 
+
+## JavaScript
+https://javascript.info/
+
+## React
+https://react.dev/
