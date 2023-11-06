@@ -77,8 +77,13 @@ https://react.dev/
 # Style Sheet
 <img src='Assets\style sheet 2.png'></img>
 
+# Site Structure
+The website consists of one file "app". The site has a ```components``` folder which store the different components used across the site.
+
+
 # Features & Functionality
 ## Api Call
+The ```useEffect``` and ```useState``` use to call information onto the main website
 ```
 const [data, setData] = useState(null)
 
