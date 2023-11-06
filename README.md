@@ -33,6 +33,8 @@
  - must be able to change the property displayed via an input.
 
 # npm installs
+
+### React
 ```
 npm i react
 ```
@@ -55,6 +57,13 @@ https://react-icons.github.io/react-icons/
 ```
 npm i react-icons
 ```
+## Useful Sources 
+
+### JavaScript
+https://javascript.info/
+
+### React
+https://react.dev/
 
 # Style Sheet
 <img src='Assets\style sheet 2.png'></img>
