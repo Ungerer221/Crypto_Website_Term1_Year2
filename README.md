@@ -156,3 +156,9 @@ The greatest high light was actualy getting the functionality to work. To get th
 # Challenges 
 > [!IMPORTANT]
 > There where some ```Bugs``` that was very challenging to fix 
+- the other challenge was to actualy get the api key and then to connect the api and call the right information
+
+# Future Implementation
+- Updated UI
+- Increased Data Display for each currency 
+- Updated Calculating and comparison page
