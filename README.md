@@ -184,3 +184,6 @@ https://javascript.info/
 
 ## React
 https://react.dev/
+
+# Problems to fix
+- the timeline page, time frame selection function
